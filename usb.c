@@ -1,8 +1,8 @@
 #include<linux/module.h>
 #include<linux/init.h>
 #include<linux/usb.h>
-#define vID Linus
-#define pID Torvalds
+#define vID 0xGNU
+#define pID 0xLINUX
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("TUX");
 MODULE_DESCRIPTION("USB DRIVER");
