@@ -1,1 +1,1 @@
-followed @Johannes4Linux tutorial, updated for kernel 6.9.8
+followed https://github.com/Johannes4Linux tutorial, updated for kernel 6.9.8
