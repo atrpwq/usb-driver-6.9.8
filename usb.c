@@ -1,8 +1,8 @@
 #include<linux/module.h>
 #include<linux/init.h>
 #include<linux/usb.h>
-#define vID [vendorid]
-#define pID [productid]
+#define vID Linus
+#define pID Torvalds
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("TUX");
 MODULE_DESCRIPTION("USB DRIVER");
@@ -19,7 +19,7 @@ static void usb_disconnect(struct usb_interface *intf){
 	printk("usb disconnected");
 }
 static struct usb_driver usbdev = {
-	.name = "RAZER USB",
+	.name = "USB",
 	.id_table = usbtable1,
 	.probe = usb_probe,
 	.disconnect = usb_disconnect,
